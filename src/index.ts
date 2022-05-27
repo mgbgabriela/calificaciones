@@ -15,12 +15,12 @@ let practica: number;
 let teorica: number;
 let problemas: number;
 let final: number;
-let nombreA = (prompt ("ingrese el nombre del alumno")); 
+let nombreA = (promp ("ingrese el nombre del alumno")); 
 
 while (nombreA !== ""){ 
-  practica =  Number(prompt ("Ingrese nota parte práctica"));
-  teorica = Number(prompt ("Ingrese nota parte teórica"));
-  problemas = Number(prompt ("Ingrese nota parte problemas")); 
+  practica =  Number(promp ("Ingrese nota parte práctica"));
+  teorica = Number(promp ("Ingrese nota parte teórica"));
+  problemas = Number(promp ("Ingrese nota parte problemas")); 
 
   if((practica <= 10 && practica >=0) && (teorica <= 10 && teorica >= 0) && (problemas <= 10 && problemas >=0)); {
     final= practica * 0.1 + teorica * 0.4 + problemas * 0.5;
