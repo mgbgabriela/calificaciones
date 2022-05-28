@@ -24,13 +24,12 @@ while (nombreA !== ""){
 
   if((practica <= 10 && practica >=0) && (teorica <= 10 && teorica >= 0) && (problemas <= 10 && problemas >=0)); {
     final= practica * 0.1 + teorica * 0.4 + problemas * 0.5;
-  } 
 console.log("La nota del alumno " + nombreA + " es " + final);
 
-  }else (nombreA =="") {
+       }else {
 console.log("Las notas ingresadas de alumno" + nombreA + "son incorrectas");
   } 
-nombreA = (promp ("Ingrese el nombre de otro alumno"));
+nombreA = (promp ("Ingrese el nombre de otro alumno (vacio para cortar)");
 }
 
 /*
