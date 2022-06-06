@@ -29,6 +29,6 @@ console.log("La nota del alumno " + nombreA + " es " + final);
        }else {
 console.log("Las notas ingresadas de alumno " + nombreA + " son incorrectas");
   } 
-nombreA = (prompt ("Ingrese el nombre de otro alumno ")
+nombreA = (prompt ("Ingrese el nombre de otro alumno "));
 }
 
